@@ -24,7 +24,7 @@ const useFilters = (products: Product[]) => {
     }
 
     setFilteredProducts(updatedProducts);
-  }, [products, term, sortBy, filteredProducts]);
+  }, [products, term, sortBy]);
   return { filteredProducts, term, setTerm, sortBy, setSortBy };
 };
 
